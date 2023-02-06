@@ -1,0 +1,17 @@
+<html>
+    <script>
+        function verificaNumeroPrimo(numero) {
+            var resultado = true;
+
+            for (var i = 2; i < numero; i++) {
+                if (numero % i === 0) {
+                    //o numero nao eh primo
+                    resultado = false;
+                    break;
+                } 
+            }
+
+            return resultado;
+        }
+    </script>
+</html>
